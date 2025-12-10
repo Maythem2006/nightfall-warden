@@ -24,7 +24,6 @@ func _on_area_2d_area_entered(area):
 	if area.is_in_group("bala"):
 		vida -= 1
 		print(vida)
-		
+
 func _on_area_2d_area_exited(_area):
 	$AnimatedSprite2D.play("caminar")
-	
